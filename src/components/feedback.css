@@ -1,0 +1,46 @@
+@keyframes rotateColor {
+    0% {
+      transform: rotate(0deg);
+      border-color: #cc3535; /* Tailwind Blue */
+    }
+    50% {
+      transform: rotate(180deg);
+      border-color: green; /* Tailwind Yellow */
+    }
+    100% {
+      transform: rotate(360deg);
+      border-color: #3b82f6; /* Tailwind Blue */
+    }
+  }
+  
+  .animate-rotateColor {
+    animation: rotateColor 3s infinite ease-in-out;
+  }
+  
+@keyframes rotatingBorder {
+  0% {
+    border-top-color: blue;
+    transform: rotate(0deg);
+  }
+  25% {
+    border-right-color: blue;
+  }
+  50% {
+    border-bottom-color: blue;
+  }
+  75% {
+    border-left-color: blue;
+  }
+  100% {
+    border-top-color: blue;
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotatingBorder {
+  animation: rotatingBorder 2s linear infinite;
+}
+
+
+  
+  
