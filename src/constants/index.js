@@ -131,7 +131,7 @@ const experiences = [
     company_name: "Destination Technology",
     icon: destination,
     iconBg: "#E6DEDD",
-    date: "Sep 2024 - March 2025",
+    date: "Sep 2024 - Present",
     points: [
       "As a full-stack developer, I enjoy building scalable and efficient web applications from front to back. With expertise in Java, Spring Boot, MySQL, and modern front-end technologies like React and Angular, I focus on creating seamless user experiences and robust backend systems. I thrive in collaborative environments, writing clean, maintainable code, and staying updated with the latest tech trends to deliver high-quality solutions.",
     ],
@@ -141,7 +141,7 @@ const experiences = [
     company_name: "Destination Technology",
     icon: destination,
     iconBg: "#E6DEDD",
-    date: "Sep 2024 - March 2025",
+    date: "Sep 2024 - Present",
     points: [
       "I’m a passionate Java developer with a strong foundation in building scalable and efficient web applications. I specialize in Java, Spring Boot, Hibernate, and MySQL, focusing on writing clean, maintainable code and optimizing application performance. I enjoy collaborating with cross-functional teams, integrating RESTful APIs, and ensuring seamless backend functionality. With a problem-solving mindset, I strive to develop robust, secure, and high-quality applications while staying updated with the latest advancements in Java and backend technologies.",
     ],
@@ -151,7 +151,7 @@ const experiences = [
     company_name: "Destination Technology",
     icon: destination,
     iconBg: "#383E56",
-    date: "Sep 2024 - March 2025",
+    date: "Sep 2024 - Present",
     points: [
       "I’m a dedicated web developer with a passion for creating responsive, fast, and visually appealing websites. Skilled in HTML, CSS, JavaScript, and modern frameworks, I focus on building seamless user experiences and maintaining clean, efficient code. I enjoy collaborating with teams to develop scalable web solutions while staying updated with the latest industry trends.",
     ],
@@ -161,7 +161,7 @@ const experiences = [
     company_name: "Destination Technology",
     icon: destination,
     iconBg: "#383E56",
-    date: "Sep 2024 - March 2025",
+    date: "Sep 2024 - Present",
     points: [
       "I’m a passionate React.js developer with a keen eye for building dynamic and user-friendly web applications. I enjoy creating reusable components, optimizing performance, and ensuring seamless user experiences across different devices and browsers. With a strong foundation in JavaScript, HTML, and CSS, I love collaborating with designers and backend developers to bring ideas to life. Writing clean, maintainable code and staying up-to-date with the latest trends in the React ecosystem is something I prioritize to build high-quality, scalable applications.",
     ],
