@@ -33,6 +33,9 @@ import {
   alexa,
   spotify,
   amazon,
+  JavaScript_Intermediate,
+  Problem_Solving_basic,
+  React_Basic
 } from "../assets";
 
 export const navLinks = [
@@ -216,6 +219,30 @@ const testimonials = [
     designation: "From",
     company: "Hacker rank",
     image: javascript_basic,
+  },
+  {
+    hackerranklink:
+      "https://www.hackerrank.com/certificates/fc7d1b44b5f0",
+    name: "JavaScript Intermediate",
+    designation: "From",
+    company: "Hacker rank",
+    image: JavaScript_Intermediate,
+  },
+  {
+    hackerranklink:
+      "https://www.hackerrank.com/certificates/51240da4efc9",
+    name: "React Basic",
+    designation: "From",
+    company: "Hacker rank",
+    image: React_Basic,
+  },
+  {
+    hackerranklink:
+      "https://www.hackerrank.com/certificates/9ec8227fcb02",
+    name: "Problem Solving (Basic)",
+    designation: "From",
+    company: "Hacker rank",
+    image: Problem_Solving_basic,
   },
 ];
 

@@ -43,6 +43,9 @@ import sql_intermediate from "./SQL_Intermidiate.png";
 import javascript_basic from "./javascript_basic.png";
 import sql_advance from "./sql_advance.png";
 import css_basic from "./css_basic.png";
+import JavaScript_Intermediate from "./JavaScript_Intermediate.png";
+import Problem_Solving_basic from "./Problem_Solving_basic.png";
+import React_Basic from "./React_Basic.png";
 
 
 export {
@@ -86,4 +89,7 @@ export {
   alexa,
   spotify,
   amazon,
+  JavaScript_Intermediate,
+  Problem_Solving_basic,
+  React_Basic
 };
