@@ -5,16 +5,16 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
-import { hackerrank, dklogo2 } from "../assets";
 import "./feedback.css";
 
 const FeedbackCard = ({
   index,
-  hackerranklink,
+  certificateLink,
   name,
   designation,
   company,
   image,
+  companyLogo,
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
@@ -40,17 +40,18 @@ const FeedbackCard = ({
             {designation} {"----->>>"} {company}
           </p>
         </div>
-        <a
-          href={hackerranklink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src={hackerrank}
-            alt={`feedback_by-${name}`}
-            className="w-10 h-10 rounded-full object-cover border-4 border-blue-500 animate-rotateColor"
-          />
-        </a>
+       <a
+  href={certificateLink}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src={companyLogo}
+    alt={`company_logo-${name}`}
+    className="w-10 h-10 rounded-full object-cover border-4 border-blue-500 animate-rotateColor"
+  />
+</a>
+
       </div>
     </div>
   </motion.div>
@@ -76,4 +77,4 @@ const Feedbacks = () => {
   );
 };
 
-export default SectionWrapper(Feedbacks, "");
+export default SectionWrapper(Feedbacks, "certifications");

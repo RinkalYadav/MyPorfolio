@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { dklogo2 } from "../assets";
+import { rinkal_main } from "../assets";
 
 const Hero = () => {
   return (
@@ -20,16 +20,16 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Rinkal Yadav</span>
           </h1>
           <p className={`${styles.heroSubText} mt-1 text-white-100`}>
-            I am a developer <br className="sm:block hidden" />
-            Android and web applications
+            Java Full-Stack Developer <br className="sm:block hidden" />
+            Building Scalable Web Applications
           </p>
         </div>
       </div>
       <div className="relative">
   <img
-    src={dklogo2}
+    src={rinkal_main}
     alt=""
-    className="absolute top-16 right-2 m-16 w-40 h-40 rounded-full shadow-lg"
+    className="absolute top-16 right-2 m-16 w-40 h-35 rounded-full object-cover"
   />
 </div>
 

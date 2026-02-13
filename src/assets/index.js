@@ -46,12 +46,40 @@ import css_basic from "./css_basic.png";
 import JavaScript_Intermediate from "./JavaScript_Intermediate.png";
 import Problem_Solving_basic from "./Problem_Solving_basic.png";
 import React_Basic from "./React_Basic.png";
+import developer from "./developer.svg";
+import angular_basic from "./angular_basic.png";
+import codegnan_logo from "./codegnan_logo.png";
+import codegnan_certificate from "./codegnan_certificate.png";
+import ingendynamics_certificate from "./ingendynamics_certificate.png";
+import ingendynamics_logo from "./ingendynamics_logo.png";
+import jp_morgan_certificate from "./jp_morgon_certificate.png";
+import jp_morgon_logo from "./jp_morgon_logo.png";
+import notification_dashboard from "./notification_dashboard.png";
+import homework_tracking from "./homework_tracking.png";
+import fitness_dashboard from "./fitness_dashboard.png";
+import cricket_game from "./cricket_game.png";
+import rinkal_main from "./rinkal_main.png";
+
 
 
 export {
   logo,
   backend,
   mobile,
+  developer,
+  angular_basic,
+  codegnan_logo,
+  codegnan_certificate,
+  ingendynamics_certificate,
+  ingendynamics_logo,
+  jp_morgan_certificate,
+  jp_morgon_logo,
+  notification_dashboard,
+  homework_tracking,
+  fitness_dashboard,
+  cricket_game,
+  rinkal_main,
+ 
   web,
   github,
   menu,
@@ -91,5 +119,5 @@ export {
   amazon,
   JavaScript_Intermediate,
   Problem_Solving_basic,
-  React_Basic
+  React_Basic,
 };

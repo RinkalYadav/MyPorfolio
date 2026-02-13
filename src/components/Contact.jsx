@@ -69,11 +69,13 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10`}
+
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='xl:w-1/2 w-full bg-black-100 p-8 rounded-2xl'
+
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -123,6 +125,46 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+          {/* Direct Contact Links */}
+<div className="mt-10 flex flex-wrap gap-4">
+  <a href="mailto:rinkalbyadav@gmail.com" className="text-blue-400 hover:text-white transition">
+    📧 Email
+  </a>
+
+  <a href="tel:+919170285408" className="text-green-400 hover:text-white transition">
+    📞 Call
+  </a>
+
+  <a href="https://wa.me/919170285408" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-white transition">
+    💬 WhatsApp
+  </a>
+
+  <a href="https://www.linkedin.com/in/rinkal-yadav-rby-342534225435342553643/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-white transition">
+    🔗 LinkedIn
+  </a>
+
+  <a href="https://github.com/RinkalYadav" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+    💻 GitHub
+  </a>
+
+  <a href="https://www.naukri.com/mnjuser/profile" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-white transition">
+    🧑‍💼 Naukri
+  </a>
+
+  <a href="https://instagram.com/rinkalbyadav" target="_blank" rel="noopener noreferrer" className="text-pink-400 hover:text-white transition">
+    📸 Instagram
+  </a>
+
+  <a href="https://facebook.com/rinkalbyadv/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-white transition">
+    📘 Facebook
+  </a>
+
+  <a href="https://twitter.com/@RinkuY2003" target="_blank" rel="noopener noreferrer" className="text-sky-400 hover:text-white transition">
+    🐦 Twitter
+  </a>
+</div>
+
         </form>
       </motion.div>
 

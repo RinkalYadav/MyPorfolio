@@ -48,8 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I’m Rinkal Yadav, a dedicated Java Full-Stack Developer, with expertise in technologies like Java, Spring Boot, Hibernate, React, HTML, CSS, JavaScript, and MySQL. Currently, I’m an intern at Destination Technologies, where I contribute to building efficient web applications.I thrive in collaborative environments and am always eager to explore and learn new technologies.
-      </motion.p>
+        I’m Rinkal Yadav, a dedicated Java Full-Stack Developer with expertise in technologies like Java, Spring Boot, Hibernate, Angular, HTML, CSS, JavaScript, and MySQL. I have successfully completed my Full-Stack Development training at Codegnan (Destination Technologies), where I gained hands-on experience in building modern web applications. Currently, I am working at InGen Dynamics as a Software Developer, contributing to the development of efficient and scalable web applications. I thrive in collaborative environments and am always eager to explore and learn new technologies.     </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

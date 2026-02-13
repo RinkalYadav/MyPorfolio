@@ -15,7 +15,9 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  source_code_link,
+  source_code_link_frontend,
+  source_code_link_backend,
+  live_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -26,34 +28,25 @@ const ProjectCard = ({
           speed: 450,
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+
       >
-        <div className='relative w-full h-[230px]'>
+        {/* Image Section */}
+        <div className="relative w-full h-[230px]">
           <img
             src={image}
-            alt='project_image'
-            className='w-full h-full object-cover rounded-2xl '
+            alt="project_image"
+            className="w-full h-full object-cover rounded-2xl"
           />
-
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-10 h-10 object-contain rounded-full object-cover border-2 border-blue-500 animate-rotateColor'
-              />
-            </div>
-          </div>
         </div>
 
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+        {/* Project Info */}
+        <div className="mt-5">
+          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+        {/* Tags */}
+        <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
@@ -63,10 +56,47 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+
+        {/* 🔥 Buttons Section */}
+        <div className="mt-5 flex flex-col gap-3">
+
+          {/* Live Preview */}
+          {live_link && (
+            <button
+              onClick={() => window.open(live_link, "_blank")}
+              className="bg-green-600 hover:bg-green-700 transition duration-300 text-white px-4 py-2 rounded-lg"
+            >
+              🚀 Live Preview
+            </button>
+          )}
+
+          {/* Frontend Code */}
+          {source_code_link_frontend && (
+            <button
+              onClick={() => window.open(source_code_link_frontend, "_blank")}
+              className="bg-blue-600 hover:bg-blue-700 transition duration-300 text-white px-4 py-2 rounded-lg"
+            >
+              💻 Frontend Code
+            </button>
+          )}
+
+          {/* Backend Code */}
+          {source_code_link_backend && (
+            <button
+              onClick={() => window.open(source_code_link_backend, "_blank")}
+              className="bg-purple-600 hover:bg-purple-700 transition duration-300 text-white px-4 py-2 rounded-lg"
+            >
+              🗄 Backend Code
+            </button>
+          )}
+
+        </div>
       </Tilt>
     </motion.div>
   );
 };
+
+
 
 const Works = () => {
   return (
@@ -98,4 +128,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

@@ -1,8 +1,20 @@
 
 import {
+  developer,
   mobile,
   backend,
-
+  angular_basic,
+  codegnan_logo,
+  hackerrank,
+  codegnan_certificate,
+  ingendynamics_certificate,
+  ingendynamics_logo,
+  jp_morgan_certificate,
+  jp_morgon_logo,
+  notification_dashboard,
+  homework_tracking,
+  fitness_dashboard,
+  cricket_game,
   web,
   javascript,
   html,
@@ -35,7 +47,7 @@ import {
   amazon,
   JavaScript_Intermediate,
   Problem_Solving_basic,
-  React_Basic
+  React_Basic,
 } from "../assets";
 
 export const navLinks = [
@@ -44,8 +56,16 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "certifications",
+    title: "Certificates",
   },
  
   {
@@ -56,11 +76,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Java Developer",
     icon: web,
   },
   {
-    title: "React  Developer",
+    title: "Angular Developer",
     icon: mobile,
   },
   {
@@ -123,130 +143,296 @@ const technologies = [
     icon: spring,
   },
   {
-    name: "bootstrap",
+    name: "SQL",
     icon: sql,
   },
 ];
 
 const experiences = [
   {
-    title: "Full stack Developer",
-    company_name: "Destination Technology",
-    icon: destination,
-    iconBg: "#E6DEDD",
-    date: "Sep 2024 - Present",
-    points: [
-      "As a full-stack developer, I enjoy building scalable and efficient web applications from front to back. With expertise in Java, Spring Boot, MySQL, and modern front-end technologies like React and Angular, I focus on creating seamless user experiences and robust backend systems. I thrive in collaborative environments, writing clean, maintainable code, and staying updated with the latest tech trends to deliver high-quality solutions.",
-    ],
-  },
-  {
-    title: "Java Developer",
-    company_name: "Destination Technology",
-    icon: destination,
-    iconBg: "#E6DEDD",
-    date: "Sep 2024 - Present",
-    points: [
-      "I’m a passionate Java developer with a strong foundation in building scalable and efficient web applications. I specialize in Java, Spring Boot, Hibernate, and MySQL, focusing on writing clean, maintainable code and optimizing application performance. I enjoy collaborating with cross-functional teams, integrating RESTful APIs, and ensuring seamless backend functionality. With a problem-solving mindset, I strive to develop robust, secure, and high-quality applications while staying updated with the latest advancements in Java and backend technologies.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Destination Technology",
-    icon: destination,
+    title: "Independent Full Stack Developer",
+    company_name: "Self-Employed",
+    icon: developer,
     iconBg: "#383E56",
-    date: "Sep 2024 - Present",
+    date: "Dec 2024 – Present",
     points: [
-      "I’m a dedicated web developer with a passion for creating responsive, fast, and visually appealing websites. Skilled in HTML, CSS, JavaScript, and modern frameworks, I focus on building seamless user experiences and maintaining clean, efficient code. I enjoy collaborating with teams to develop scalable web solutions while staying updated with the latest industry trends.",
-    ],
+        "Building personal portfolio projects.",
+  "Improving skills in Angular, Spring Boot.",
+  "Practicing DSA and system design.",
+  "Developing real-time applications.", ],
   },
   {
-    title: "React.js Developer",
-    company_name: "Destination Technology",
-    icon: destination,
+    title: "Junior Software Engineer (Intern)",
+    company_name: "Ingen Dynamics Inc (AH Beta Dynamics and Robotics Pvt Ltd), Bangalore",
+    icon: developer,
     iconBg: "#383E56",
-    date: "Sep 2024 - Present",
+    date: "Feb 2025 – Nov 2025",
+    certificateLink: "/certificates/ingendynamics_certificate.pdf",
     points: [
-      "I’m a passionate React.js developer with a keen eye for building dynamic and user-friendly web applications. I enjoy creating reusable components, optimizing performance, and ensuring seamless user experiences across different devices and browsers. With a strong foundation in JavaScript, HTML, and CSS, I love collaborating with designers and backend developers to bring ideas to life. Writing clean, maintainable code and staying up-to-date with the latest trends in the React ecosystem is something I prioritize to build high-quality, scalable applications.",
+        "Developing dynamic and responsive web applications using Angular.",
+  "Designing and integrating RESTful APIs using Spring Boot for seamless frontend-backend communication.",
+  "Managing MySQL database operations including schema design and query optimization.",
+  "Contributing to scalable enterprise application architecture in a collaborative development environment.", ],
+  },
+   {
+    title: "Full Stack Developer Trainee",
+    company_name: "Codegnan – Destination Technologies, Bangalore",
+    icon: developer,
+    iconBg: "#383E56",
+    date: "Sep 2024 – Feb 2025",
+    certificateLink: "/certificates/codegnan_certificate.pdf",
+    points: [
+      "Completed intensive Java Full Stack Development training.",
+      "Built real-world applications using Java, Spring Boot, MySQL, React, and Angular.",
+      "Worked on frontend and backend integration with REST APIs.",
+      "Developed strong understanding of scalable web application architecture.",
     ],
   },
 ];
 
 const testimonials = [
   {
-    hackerranklink:
+    certificateLink:
+      "/certificates/jp_morgon_certificate.pdf",
+    name: "Software Engineering Job Simulation",
+    designation: "Certification",
+    company: "Jp Morgan Chase & Co.",
+    image: jp_morgan_certificate,
+    companyLogo: jp_morgon_logo,
+  },
+    {
+    certificateLink:
+      "https://www.hackerrank.com/certificates/78d819064535",
+    name: "Angular (Basic)",
+    designation: "Certification",
+    company: "HackerRank",
+    image: angular_basic,
+    companyLogo: hackerrank,
+  },
+  {
+    certificateLink:
       "https://www.hackerrank.com/certificates/ff75e0e45aa9",
-    name: "Java basic",
-    designation: "From",
-    company: "Hacker rank",
+    name: "Java (Basic)",
+    designation: "Certification",
+    company: "HackerRank",
     image: java_basic,
+    companyLogo: hackerrank,
   },
   {
-    hackerranklink:
+    certificateLink:
       "https://www.hackerrank.com/certificates/4b79ace354a7",
-    name: "SQL basic",
-    designation: "From",
-    company: "Hacker rank",
+    name: "SQL (Basic)",
+    designation: "Certification",
+    company: "HackerRank",
     image: sql_basic,
+    companyLogo: hackerrank,
   },
   {
-    hackerranklink:
+    certificateLink:
       "https://www.hackerrank.com/certificates/3aeb1770c03c",
-    name: "SQL Intermediate",
-    designation: "From",
-    company: "Hacker rank",
+    name: "SQL (Intermediate)",
+    designation: "Certification",
+    company: "HackerRank",
     image: sql_intermediate,
+    companyLogo: hackerrank,
   },
   {
-    hackerranklink:
+    certificateLink:
       "https://www.hackerrank.com/certificates/0371a0879388",
-    name: "CSS Basic",
-    designation: "From",
-    company: "Hacker rank",
+    name: "CSS (Basic)",
+    designation: "Certification",
+    company: "HackerRank",
     image: css_basic,
+    companyLogo: hackerrank,
   },
   {
-    hackerranklink:
+    certificateLink:
       "https://www.hackerrank.com/certificates/b893f911604f",
-    name: "SQL Advanced",
-    designation: "From",
-    company: "Hacker rank",
+    name: "SQL (Advanced)",
+    designation: "Certification",
+    company: "HackerRank",
     image: sql_advance,
+    companyLogo: hackerrank,
   },
   {
-    hackerranklink:
+    certificateLink:
       "https://www.hackerrank.com/certificates/8fdd217029aa",
-    name: "JavaScript Basic",
-    designation: "From",
-    company: "Hacker rank",
+    name: "JavaScript (Basic)",
+    designation: "Certification",
+    company: "HackerRank",
     image: javascript_basic,
+    companyLogo: hackerrank,
   },
   {
-    hackerranklink:
+    certificateLink:
       "https://www.hackerrank.com/certificates/fc7d1b44b5f0",
-    name: "JavaScript Intermediate",
-    designation: "From",
-    company: "Hacker rank",
+    name: "JavaScript (Intermediate)",
+    designation: "Certification",
+    company: "HackerRank",
     image: JavaScript_Intermediate,
+    companyLogo: hackerrank,
   },
   {
-    hackerranklink:
+    certificateLink:
       "https://www.hackerrank.com/certificates/51240da4efc9",
-    name: "React Basic",
-    designation: "From",
-    company: "Hacker rank",
+    name: "React (Basic)",
+    designation: "Certification",
+    company: "HackerRank",
     image: React_Basic,
+    companyLogo: hackerrank,
   },
   {
-    hackerranklink:
+    certificateLink:
       "https://www.hackerrank.com/certificates/9ec8227fcb02",
     name: "Problem Solving (Basic)",
-    designation: "From",
-    company: "Hacker rank",
+    designation: "Certification",
+    company: "HackerRank",
     image: Problem_Solving_basic,
+    companyLogo: hackerrank,
   },
+  {
+    certificateLink:
+      "https://www.hackerrank.com/certificates/9ec8227fcb02",
+    name: "Problem Solving (Basic)",
+    designation: "Certification",
+    company: "HackerRank",
+    image: Problem_Solving_basic,
+    companyLogo: hackerrank,
+  },
+ 
 ];
 
 const projects = [
+  {
+    name: "Notification Dashboard",
+    description:
+      "I built a full-stack Real-Time Notification Dashboard using Angular and Spring Boot. The application uses WebSocket for instant updates, JWT authentication for security, and REST APIs for seamless data communication. This project showcases my skills in frontend development, backend architecture, database integration, and real-time systems",
+ tags: [
+  {
+    name: "Angular",
+    color: "blue-text-gradient",
+  },
+  {
+    name: "Spring Boot",
+    color: "green-text-gradient",
+  },
+  {
+    name: "Java",
+    color: "pink-text-gradient",
+  },
+  {
+    name: "WebSocket",
+    color: "orange-text-gradient",
+  },
+  {
+    name: "JWT Authentication",
+    color: "purple-text-gradient",
+  },
+  {
+    name: "REST API",
+    color: "yellow-text-gradient",
+  },
+  {
+    name: "PostgreSQL",
+    color: "blue-text-gradient",
+  },
+  {
+    name: "JPA / Hibernate",
+    color: "green-text-gradient",
+  },
+  
+]
+,
+    image: notification_dashboard,
+    source_code_link_frontend: "https://github.com/RinkalYadav/NotificationDashboardProjectFrontend",
+  source_code_link_backend: "https://github.com/RinkalYadav/NotificationDashboardBackend",
+    live_link: "https://notificationdashboardprojectfrontend.onrender.com",
+  },
+  {
+    name: "Homework Tracking System",
+    description:
+      "Designed a full-stack Homework Management System using Angular and Spring Boot with JWT authentication and role-based access control. Integrated REST APIs with PostgreSQL using JPA/Hibernate for secure assignment tracking and user management.",
+    tags: [
+  {
+    name: "Angular",
+    color: "blue-text-gradient",
+  },
+  {
+    name: "Spring Boot",
+    color: "green-text-gradient",
+  },
+  {
+    name: "Java",
+    color: "pink-text-gradient",
+  },
+  {
+    name: "JWT Authentication",
+    color: "orange-text-gradient",
+  },
+  {
+    name: "Role-Based Access",
+    color: "purple-text-gradient",
+  },
+  {
+    name: "REST API",
+    color: "yellow-text-gradient",
+  },
+  {
+    name: "PostgreSQL",
+    color: "blue-text-gradient",
+  },
+  {
+    name: "JPA / Hibernate",
+    color: "green-text-gradient",
+  },
+]
+,
+    image: homework_tracking,
+    source_code_link_frontend: "https://github.com/RinkalYadav/HomeworkTrackingFrontend",
+  source_code_link_backend: "https://github.com/RinkalYadav/HomeworkTrackingBackend",
+    live_link: "https://homeworktrackingfrontend.onrender.com",
+  },
+  {
+    name: "Fitness dashboard",
+    description:
+      "I built a full-stack Fitness Dashboard using Angular and Spring Boot that allows users to track workouts and monitor fitness progress. The system uses JWT authentication, REST APIs, and PostgreSQL for secure and efficient data management. This project highlights my skills in frontend development, backend architecture, and database-driven applications.",
+    tags: [
+  {
+    name: "Angular",
+    color: "blue-text-gradient",
+  },
+  {
+    name: "Spring Boot",
+    color: "green-text-gradient",
+  },
+  {
+    name: "Java",
+    color: "pink-text-gradient",
+  },
+  {
+    name: "JWT Authentication",
+    color: "orange-text-gradient",
+  },
+  {
+    name: "REST API",
+    color: "purple-text-gradient",
+  },
+  {
+    name: "PostgreSQL",
+    color: "blue-text-gradient",
+  },
+  {
+    name: "JPA / Hibernate",
+    color: "green-text-gradient",
+  },
+  
+],
+    image: fitness_dashboard,
+    source_code_link_frontend: "https://github.com/RinkalYadav/Fitness-Lifestyle-Dashboard-Frontend",
+  source_code_link_backend: "https://github.com/RinkalYadav/Fitness-Lifestyle-Dashboard-Backend",
+    live_link: "https://fitnessdashboard1.netlify.app/",
+  },
+  
   {
     name: "Virtual Assistant",
     description:
@@ -266,8 +452,10 @@ const projects = [
       },
     ],
     image: alexa,
-    source_code_link: "https://github.com/RinkalYadav/VitrualAssistance",
+    source_code_link_frontend: "https://github.com/RinkalYadav/VitrualAssistance",
+    live_link: "https://rinkalsassistance.netlify.app/",
   },
+  
   {
     name: "Music Player",
     description:
@@ -287,7 +475,8 @@ const projects = [
       },
     ],
     image: spotify,
-    source_code_link: "https://github.com/RinkalYadav/Spotify",
+    source_code_link_frontend: "https://github.com/RinkalYadav/Spotify",
+    live_link: "https://minimusicplayerac.netlify.app/",
   },
   {
     name: "Amazon Clone",
@@ -308,72 +497,9 @@ const projects = [
       },
     ],
     image: amazon,
-    source_code_link: "https://github.com/RinkalYadav/Amazon_clone",
-  },
-  {
-    name: "Currency Converter",
-    description:
-      "I developed a currency converter web app that provides real-time currency conversion using live exchange rates. Built with JavaScript, React.js, and API integration, it ensures accuracy and a smooth user experience. This project highlights my skills in front-end development and API handling.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "API",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: currency,
-    source_code_link: "https://github.com/RinkalYadav",
-  },
-  {
-    name: "Mini Chatgpt",
-    description:
-      "I developed a mini ChatGPT application using React, Tailwind CSS, and API integration to provide AI-powered responses. The app features a sleek UI and ensures a smooth user experience with real-time interactions. This project showcases my skills in front-end development, API handling, and UI design.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Html&CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "API",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: chatgpt,
-    source_code_link: "https://github.com/RinkalYadav",
-  },
-  {
-    name: "Library Management",
-    description:
-      "Developed a LMS using HTML, CSS, JavaScript, and PHP for efficient book and user management. It features a responsive design and smooth functionality for lending operations. This project highlights my skills in web development, database integration, and UI design.",
-    tags: [
-      {
-        name: "Html&CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "SQL&PHP",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: library,
-    source_code_link: "https://github.com/RinkalYadav",
-  },
-  
+    source_code_link_frontend: "https://github.com/RinkalYadav/Amazon_clone",
+    live_link: "https://amazonrinkal.netlify.app/",
+  },  
   
 ];
 

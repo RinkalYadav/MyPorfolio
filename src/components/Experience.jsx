@@ -27,13 +27,16 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[100%] h-[70%] object-contain rounded-full object-cover border-2 border-blue-500 animate-rotateColor  '
+            className='w-[60%] h-[60%] object-contain rounded-full border-2 border-blue-500 animate-rotateColor'
           />
         </div>
       }
     >
+      {/* Title & Company */}
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className='text-white text-[24px] font-bold'>
+          {experience.title}
+        </h3>
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
@@ -42,6 +45,7 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
+      {/* Points */}
       <ul className='mt-5 list-disc ml-5 space-y-2'>
         {experience.points.map((point, index) => (
           <li
@@ -52,6 +56,18 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+
+      {/* Certificate Button */}
+      {experience.certificateLink && (
+        <a
+          href={experience.certificateLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm px-5 py-2 rounded-lg transition duration-300 shadow-md"
+        >
+          📜 View Certificate
+        </a>
+      )}
     </VerticalTimelineElement>
   );
 };
@@ -82,4 +98,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "experience");
