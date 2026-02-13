@@ -51,7 +51,6 @@ import angular_basic from "./angular_basic.png";
 import codegnan_logo from "./codegnan_logo.png";
 import codegnan_certificate from "./codegnan_certificate.png";
 import ingendynamics_certificate from "./ingendynamics_certificate.png";
-import ingendynamics_logo from "./ingendynamics_logo.png";
 import jp_morgan_certificate from "./jp_morgon_certificate.png";
 import jp_morgon_logo from "./jp_morgon_logo.png";
 import notification_dashboard from "./notification_dashboard.png";
@@ -71,7 +70,6 @@ export {
   codegnan_logo,
   codegnan_certificate,
   ingendynamics_certificate,
-  ingendynamics_logo,
   jp_morgan_certificate,
   jp_morgon_logo,
   notification_dashboard,
