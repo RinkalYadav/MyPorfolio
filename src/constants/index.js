@@ -67,11 +67,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Java Developer",
+    title: "Full-Stack Software Developer",
     icon: web,
   },
   {
-    title: "Angular Developer",
+    title: "Java Developer",
     icon: mobile,
   },
   {
@@ -141,29 +141,23 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Independent Full Stack Developer",
-    company_name: "Self-Employed",
+    title: "Software Developer",
+    company_name: "E-Mech Solutions Private Limited, Bangalore",
     icon: developer,
     iconBg: "#383E56",
-    date: "Dec 2024 – Present",
+    date: "Feb 2025 – Present",
+   
     points: [
-        "Building personal portfolio projects.",
-  "Improving skills in Angular, Spring Boot.",
-  "Practicing DSA and system design.",
-  "Developing real-time applications.", ],
-  },
-  {
-    title: "Junior Software Engineer (Intern)",
-    company_name: "Ingen Dynamics Inc (AH Beta Dynamics and Robotics Pvt Ltd), Bangalore",
-    icon: developer,
-    iconBg: "#383E56",
-    date: "Feb 2025 – Nov 2025",
-    certificateLink: "/certificates/ingendynamics_certificate.pdf",
-    points: [
-        "Developing dynamic and responsive web applications using Angular.",
-  "Designing and integrating RESTful APIs using Spring Boot for seamless frontend-backend communication.",
-  "Managing MySQL database operations including schema design and query optimization.",
-  "Contributing to scalable enterprise application architecture in a collaborative development environment.", ],
+        "Developing and maintaining web applications using Java, Spring Boot, REST APIs, Angular, and MySQL.",
+  "Designing and implementing RESTful APIs for application features and business requirements.",
+  "Working with Spring Data JPA and Hibernate for database operations and entity management.",
+  "Implementing application security using Spring Security and JWT-based authentication and authorization.",
+  "Developing and integrating frontend components using Angular, TypeScript, HTML, CSS, and JavaScript.",
+  "Debugging application issues, identifying root causes, and implementing reliable solutions.",
+  "Collaborating with team members to develop, test, and deliver new features.",
+  "Following clean coding practices and maintaining scalable, maintainable application architecture."
+
+],
   },
    {
     title: "Full Stack Developer Trainee",
