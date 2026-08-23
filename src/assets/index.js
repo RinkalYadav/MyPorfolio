@@ -58,10 +58,29 @@ import homework_tracking from "./homework_tracking.png";
 import fitness_dashboard from "./fitness_dashboard.png";
 import cricket_game from "./cricket_game.png";
 import rinkal_main from "./rinkal_main.png";
+import java1 from "./java1.png";
+import typescript from "./typescript.webp";
+import springmvc from "./springmvc.jpg";
+import security from "./security.jpg";
+import hibernate from "./hibernate.png";
+import jpa from "./jpa.png";
+import docker from "./docker.jpg";
+import angular1 from "./angular1.jpg";
+import microservices from "./microservices.png";
+import mysql from "./mysql.png";
 
 
 
 export {
+  docker,
+  angular1,
+  microservices,
+  mysql,
+  jpa,
+  hibernate,
+  security,
+  typescript,
+  java1,
   logo,
   backend,
   mobile,
@@ -118,4 +137,5 @@ export {
   JavaScript_Intermediate,
   Problem_Solving_basic,
   React_Basic,
+  springmvc,
 };

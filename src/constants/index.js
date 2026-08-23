@@ -15,6 +15,8 @@ import {
   html,
   css,
   tailwind,
+  java1,
+  
 
 
   front,
@@ -39,6 +41,11 @@ import {
   JavaScript_Intermediate,
   Problem_Solving_basic,
   React_Basic,
+  typescript,
+  springmvc,
+  security,
+  hibernate,
+  jpa,
 } from "../assets";
 
 export const navLinks = [
@@ -66,79 +73,73 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Full-Stack Software Developer",
-    icon: web,
-  },
+  
   {
     title: "Java Developer",
     icon: mobile,
+  },
+  {
+    title: "Spring Boot Developer",
+    icon: web,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Frontend developer",
+    title: "Java Full-Stack Developer",
     icon: front,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML",
-    icon: html,
-  },
-  {
-    name: "CSS",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "c language",
-    icon: clang,
-  },
-  {
-    name: "React JS",
-    icon: react,
-  },
-  {
-    name: "c++ language",
-    icon: clang2,
-  },
-  {
-    name: "python",
-    icon: python,
-  },
-  {
-    name: "sql",
-    icon: tailwind,
-  },
-  {
-    name: "bootstrap",
-    icon: bootstrap,
-  },
-  {
-    name: "java",
-    icon: java,
-  },
-  {
-    name: "data structure",
-    icon: dsa,
-  },
-  {
-    name: "spring",
-    icon: spring,
-  },
-  {
-    name: "SQL",
-    icon: sql,
-  },
-];
+  // Java & Spring
+  { name: "Java" },
+  { name: "Spring" },
+  { name: "Spring Boot" },
+  { name: "Spring MVC" },
+  { name: "Spring Security" },
+  { name: "Spring AI" },
+  { name: "Hibernate" },
+  { name: "JPA" },
+  { name: "REST API" },
+  { name: "JWT" },
+  { name: "WebSocket" },
 
+  // Frontend
+  { name: "Angular" },
+  { name: "TypeScript" },
+  { name: "JavaScript" },
+  { name: "HTML" },
+  { name: "CSS" },
+
+  // Database
+  { name: "MySQL" },
+  { name: "SQL" },
+  { name: "Redis" },
+
+  // Microservices
+  { name: "Microservices" },
+  { name: "API Gateway" },
+  { name: "Service Discovery" },
+  { name: "Circuit Breaker" },
+
+  // Messaging
+  { name: "Apache Kafka" },
+  { name: "RabbitMQ" },
+
+  // DevOps & Cloud
+  { name: "Docker" },
+  { name: "Kubernetes" },
+  { name: "AWS" },
+
+  // Tools
+  { name: "Maven" },
+  { name: "Git" },
+  { name: "GitHub" },
+  { name: "Postman" },
+  { name: "Swagger" },
+];
 const experiences = [
   {
     title: "Software Developer",
