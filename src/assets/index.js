@@ -68,6 +68,8 @@ import docker from "./docker.jpg";
 import angular1 from "./angular1.jpg";
 import microservices from "./microservices.png";
 import mysql from "./mysql.png";
+import lg_ecommerce from "./lg_ecommerce.png";
+import fabhotels from "./fabhotels.png";
 
 
 
@@ -138,4 +140,6 @@ export {
   Problem_Solving_basic,
   React_Basic,
   springmvc,
+  lg_ecommerce,
+  fabhotels,
 };

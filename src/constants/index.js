@@ -46,6 +46,8 @@ import {
   security,
   hibernate,
   jpa,
+  lg_ecommerce,
+  fabhotels,
 } from "../assets";
 
 export const navLinks = [
@@ -142,36 +144,43 @@ const technologies = [
 ];
 const experiences = [
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     company_name: "E-Mech Solutions Private Limited, Bangalore",
     icon: developer,
     iconBg: "#383E56",
-    date: "Feb 2025 – Present",
+    date: "Dec 2023 – Present",
    
     points: [
-        "Developing and maintaining web applications using Java, Spring Boot, REST APIs, Angular, and MySQL.",
-  "Designing and implementing RESTful APIs for application features and business requirements.",
-  "Working with Spring Data JPA and Hibernate for database operations and entity management.",
-  "Implementing application security using Spring Security and JWT-based authentication and authorization.",
-  "Developing and integrating frontend components using Angular, TypeScript, HTML, CSS, and JavaScript.",
-  "Debugging application issues, identifying root causes, and implementing reliable solutions.",
-  "Collaborating with team members to develop, test, and deliver new features.",
-  "Following clean coding practices and maintaining scalable, maintainable application architecture."
+        "Designed and developed RESTful APIs for product catalog, inventory, booking, order processing, and payment workflows.",
+  "Built scalable backend services using Java, Spring Boot, Hibernate, JPA, and Microservices.",
+  "Implemented Apache Kafka for event-driven communication, asynchronous processing, and service-to-service integration.",
+  "Improved application performance using Redis caching, MySQL query optimization, database indexing, and efficient JPA data access.",
+  "Worked with MySQL and MongoDB to build reliable and high-performance data storage solutions.",
+  "Developed and maintained backend modules for e-commerce and hospitality platforms.",
+  "Automated application builds and deployments using Docker, Jenkins, AWS, and CI/CD pipelines.",
+  "Developed unit and integration tests using JUnit and Mockito, maintaining 78%+ unit test coverage.",
+  "Created and maintained Swagger/OpenAPI documentation for backend APIs.",
+  "Collaborated with frontend, QA, DevOps, and product teams in Agile/Scrum environments.",
+  "Participated in code reviews, defect resolution, and production issue troubleshooting.",
+  "Followed clean code, SOLID principles, design patterns, and maintainable architecture to deliver reliable backend solutions."
 
 ],
   },
    {
-    title: "Full Stack Developer Trainee",
-    company_name: "Codegnan – Destination Technologies, Bangalore",
-    icon: developer,
+    title: "Software Engineer Intern",
+    company_name: "E-Mech Solutions Private Limited, Bangalore",
+    icoon: developer,
     iconBg: "#383E56",
-    date: "Sep 2024 – Feb 2025",
-    certificateLink: "/certificates/codegnan_certificate.pdf",
+    date: "Jun 2023 – Nov 2023",
     points: [
-      "Completed intensive Java Full Stack Development training.",
-      "Built real-world applications using Java, Spring Boot, MySQL, React, and Angular.",
-      "Worked on frontend and backend integration with REST APIs.",
-      "Developed strong understanding of scalable web application architecture.",
+      "Assisted in developing backend modules using Java, Spring Boot, Hibernate, and JPA.",
+      "Supported development of RESTful APIs with request validation and exception handling.",
+      "Worked with MySQL and MongoDB for data persistence and SQL queries.",
+      "Wrote unit test cases using JUnit and Mockito and resolved application defects.",
+      "Participated in code reviews and followed clean coding practices.",
+      "Used Git, Maven, Docker, Jenkins, and JIRA in daily development activities.",
+      "Collaborated with senior developers, QA engineers, and cross-functional teams.",
+      "Worked in an Agile/Scrum environment and contributed to sprint deliverables."
     ],
   },
 ];
@@ -290,6 +299,102 @@ const testimonials = [
 
 const projects = [
   {
+  name: "LG E-Commerce Platform",
+  description:
+    "I worked on a scalable multi-vendor E-Commerce Platform using Java and Spring Boot. The platform supports seller onboarding, product catalog, inventory management, shopping cart, checkout, order processing, and payment workflows. I developed RESTful APIs, optimized database operations using JPA/Hibernate and MySQL, implemented Redis caching and pagination for better performance, and integrated payment and shipping services. I also worked with Docker, Jenkins, AWS, and CI/CD pipelines for reliable application deployment.",
+  tags: [
+    {
+      name: "Java",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Spring Boot",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Microservices",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "REST API",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "MySQL",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "JPA / Hibernate",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Redis",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "Apache Kafka",
+      color: "purple-text-gradient",
+    },
+    {
+      name: "Docker",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "AWS",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: lg_ecommerce,
+},
+{
+  name: "FabHotels Property Booking Platform",
+  description:
+    "I worked on a hospitality platform for property search, room availability, booking management, payment processing, and cancellation workflows. I developed RESTful APIs for property search, room availability, booking confirmation, payment processing, and reservation management. I also worked on dynamic pricing and seasonal rate management while improving API performance through MySQL query optimization, database indexing, and efficient JPA data access. The project also involved Docker, Jenkins, CI/CD pipelines, JUnit, Mockito, and SonarQube.",
+  tags: [
+    {
+      name: "Java",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Spring Boot",
+      color: "green-text-gradient",
+    },
+    {
+      name: "REST API",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "MySQL",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "JPA / Hibernate",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Microservices",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Docker",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "Jenkins",
+      color: "purple-text-gradient",
+    },
+    {
+      name: "JUnit",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Mockito",
+      color: "yellow-text-gradient",
+    },
+  ],
+  image: fabhotels,
+},
+  {
     name: "Notification Dashboard",
     description:
       "I built a full-stack Real-Time Notification Dashboard using Angular and Spring Boot. The application uses WebSocket for instant updates, JWT authentication for security, and REST APIs for seamless data communication. This project showcases my skills in frontend development, backend architecture, database integration, and real-time systems",
@@ -330,9 +435,9 @@ const projects = [
 ]
 ,
     image: notification_dashboard,
-    source_code_link_frontend: "https://github.com/RinkalYadav/NotificationDashboardProjectFrontend",
-  source_code_link_backend: "https://github.com/RinkalYadav/NotificationDashboardBackend",
-    live_link: "https://notificationdashboardprojectfrontend.onrender.com",
+  //   source_code_link_frontend: "https://github.com/RinkalYadav/NotificationDashboardProjectFrontend",
+  // source_code_link_backend: "https://github.com/RinkalYadav/NotificationDashboardBackend",
+  //   live_link: "https://notificationdashboardprojectfrontend.onrender.com",
   },
   {
     name: "Homework Tracking System",
@@ -374,9 +479,9 @@ const projects = [
 ]
 ,
     image: homework_tracking,
-    source_code_link_frontend: "https://github.com/RinkalYadav/HomeworkTrackingFrontend",
-  source_code_link_backend: "https://github.com/RinkalYadav/HomeworkTrackingBackend",
-    live_link: "https://homeworktrackingfrontend.onrender.com",
+  //   source_code_link_frontend: "https://github.com/RinkalYadav/HomeworkTrackingFrontend",
+  // source_code_link_backend: "https://github.com/RinkalYadav/HomeworkTrackingBackend",
+  //   live_link: "https://homeworktrackingfrontend.onrender.com",
   },
   {
     name: "Fitness dashboard",
@@ -414,9 +519,9 @@ const projects = [
   
 ],
     image: fitness_dashboard,
-    source_code_link_frontend: "https://github.com/RinkalYadav/Fitness-Lifestyle-Dashboard-Frontend",
-  source_code_link_backend: "https://github.com/RinkalYadav/Fitness-Lifestyle-Dashboard-Backend",
-    live_link: "https://fitnessdashboard1.netlify.app/",
+  //   source_code_link_frontend: "https://github.com/RinkalYadav/Fitness-Lifestyle-Dashboard-Frontend",
+  // source_code_link_backend: "https://github.com/RinkalYadav/Fitness-Lifestyle-Dashboard-Backend",
+  //   live_link: "https://fitnessdashboard1.netlify.app/",
   },
   
   {
@@ -438,54 +543,54 @@ const projects = [
       },
     ],
     image: alexa,
-    source_code_link_frontend: "https://github.com/RinkalYadav/VitrualAssistance",
-    live_link: "https://rinkalsassistance.netlify.app/",
+   //   source_code_link_frontend: "https://github.com/RinkalYadav/VitrualAssistance",
+  //   live_link: "https://rinkalsassistance.netlify.app/",
   },
   
-  {
-    name: "Music Player",
-    description:
-      "The Spotify Music Player Clone is a web-based application, built using HTML, CSS, and JavaScript, designed to replicate the core functionality and interface of a music player. The project provides users with an interactive platform to play, pause, and navigate through tracks, offering a seamless and engaging digital music experience for all types of users.",
-    tags: [
-      {
-        name: "Html&CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: spotify,
-    source_code_link_frontend: "https://github.com/RinkalYadav/Spotify",
-    live_link: "https://minimusicplayerac.netlify.app/",
-  },
-  {
-    name: "Amazon Clone",
-    description:
-      "The Amazon Clone is a web-based application, developed using HTML, CSS, and JavaScript, designed to replicate the core features and interface of the Amazon shopping platform. The project offers users an intuitive online shopping experience, allowing them to browse products, view details, while providing a seamless and engaging e-commerce interface.",
-    tags: [
-      {
-        name: "Html&CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "API",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: amazon,
-    source_code_link_frontend: "https://github.com/RinkalYadav/Amazon_clone",
-    live_link: "https://amazonrinkal.netlify.app/",
-  },  
+  // {
+  //   name: "Music Player",
+  //   description:
+  //     "The Spotify Music Player Clone is a web-based application, built using HTML, CSS, and JavaScript, designed to replicate the core functionality and interface of a music player. The project provides users with an interactive platform to play, pause, and navigate through tracks, offering a seamless and engaging digital music experience for all types of users.",
+  //   tags: [
+  //     {
+  //       name: "Html&CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Javascript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Bootstrap",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: spotify,
+  //   // source_code_link_frontend: "https://github.com/RinkalYadav/Spotify",
+  //   // live_link: "https://minimusicplayerac.netlify.app/",
+  // },
+  // {
+  //   name: "Amazon Clone",
+  //   description:
+  //     "The Amazon Clone is a web-based application, developed using HTML, CSS, and JavaScript, designed to replicate the core features and interface of the Amazon shopping platform. The project offers users an intuitive online shopping experience, allowing them to browse products, view details, while providing a seamless and engaging e-commerce interface.",
+  //   tags: [
+  //     {
+  //       name: "Html&CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Javascript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "API",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: amazon,
+  //   // source_code_link_frontend: "https://github.com/RinkalYadav/Amazon_clone",
+  //   // live_link: "https://amazonrinkal.netlify.app/",
+  // },  
   
 ];
 
