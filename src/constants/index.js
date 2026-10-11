@@ -148,7 +148,7 @@ const experiences = [
     company_name: "E-Mech Solutions Private Limited, Bangalore",
     icon: developer,
     iconBg: "#383E56",
-    date: "Dec 2023 – Present",
+    date: "Aug 2024 – Present",
    
     points: [
         "Designed and developed RESTful APIs for product catalog, inventory, booking, order processing, and payment workflows.",
@@ -166,23 +166,7 @@ const experiences = [
 
 ],
   },
-   {
-    title: "Software Engineer Intern",
-    company_name: "E-Mech Solutions Private Limited, Bangalore",
-    icoon: developer,
-    iconBg: "#383E56",
-    date: "Jun 2023 – Nov 2023",
-    points: [
-      "Assisted in developing backend modules using Java, Spring Boot, Hibernate, and JPA.",
-      "Supported development of RESTful APIs with request validation and exception handling.",
-      "Worked with MySQL and MongoDB for data persistence and SQL queries.",
-      "Wrote unit test cases using JUnit and Mockito and resolved application defects.",
-      "Participated in code reviews and followed clean coding practices.",
-      "Used Git, Maven, Docker, Jenkins, and JIRA in daily development activities.",
-      "Collaborated with senior developers, QA engineers, and cross-functional teams.",
-      "Worked in an Agile/Scrum environment and contributed to sprint deliverables."
-    ],
-  },
+
 ];
 
 const testimonials = [
